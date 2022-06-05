@@ -1,5 +1,11 @@
+#main files to ignore
+ab_testing/__pycache__/
+Docs/*.ipynb_checkpoints
+Docs/*.csv
+Docs/*.zip
+Docs/*.py
+
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
