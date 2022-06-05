@@ -12,7 +12,7 @@ DESCRIPTION = 'A python library dedicated for A/B testing analysis'
 
 # Setting up
 setup(
-    name="ab_testing",
+    name="ab_testing-analysis",
     version=VERSION,
     author="Mihir Deo",
     author_email="<mihirdeo16@gmail.com>",
@@ -21,12 +21,12 @@ setup(
     long_description=long_description,
     url='https://github.com/mihir-workspace/ab-testing',
     packages={'','ab_testing'},
-    install_requires=[i.replace('\n','') for i in open('requirements.txt','r').readline()],
+    install_requires=["pandas","numpy"],
     keywords=['python', 'a/b testing', 'abtest', 'response analysis','conversion rate analysis'],
     classifiers=[
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License"
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent"
+        "Operating System :: OS Independent",
     ]
 )
