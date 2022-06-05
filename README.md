@@ -10,7 +10,7 @@ In A/B testing, **A** refers to ‘control’ or the original testing variable. 
 ----
 
 #### Installation & Usage
-+ Installing the library from [pypi](https://pypi.org/project/ab-testing-analysis/) - It has only dependancy on *pandas & numpy*
++ Installing the library from [pypi](https://pypi.org/project/ab-testing-analysis/) - It has only dependency on *pandas & numpy*
 ```shell
 pip install ab-testing-analysis
 ```
