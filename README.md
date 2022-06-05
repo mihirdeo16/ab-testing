@@ -21,7 +21,6 @@ ab_obj = ABTest(df,response_column='converted',group_column='group')
 
 print(ab_obj.conversion_rate())
 ```
-Output - 
 ![Conversion-rate](https://raw.githubusercontent.com/mihir-workspace/ab-testing/main/assets/results-conversion-rate.png)
 
 
