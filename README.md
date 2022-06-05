@@ -14,7 +14,7 @@ In A/B testing, **A** refers to ‘control’ or the original testing variable. 
 ```shell
 pip install ab-testing-analysis
 ```
-+ Usages & working sample
++ Usages & working sample - [Tutorial](https://github.com/mihir-workspace/ab-testing/blob/main/Docs/Tutorial-walkthrough.ipynb)
 ```python
 from ab_testing import ABTest
 ab_obj = ABTest(df,response_column='converted',group_column='group')
@@ -22,6 +22,8 @@ ab_obj = ABTest(df,response_column='converted',group_column='group')
 print(ab_obj.conversion_rate())
 ```
 ![Conversion-rate](https://raw.githubusercontent.com/mihir-workspace/ab-testing/main/assets/results-conversion-rate.png)
+
+
 
 
 
