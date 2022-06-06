@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup 
 import os
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -19,7 +19,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     url='https://github.com/mihir-workspace/ab-testing',
-    packages={'','ab_testing'},
+    packages= find_packages(),
     install_requires=["pandas","numpy"],
     keywords=['python', 'a/b testing', 'abtest', 'response analysis','conversion rate analysis'],
     classifiers=[
