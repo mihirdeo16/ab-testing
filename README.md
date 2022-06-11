@@ -4,7 +4,7 @@
 
 A/B testing is process which allows developer/data scientist to analyze and evaluate, the performance of products in an experiment. In this process two or more versions of a variable (web page, page element, products etc.) are shown to different segments of website visitors at the same time to determine which version leaves the maximum impact and drives business metrics.
 
-In A/B testing, **A** refers to ‘control’ or the original testing variable. Whereas **B** refers to ‘treatment’ or a new version of the original testing variable. Impact of the results can be evaluated based on,
+In A/B testing, **A** refers to a original testing variable. Whereas **B** refers to a new version of the original testing variable. Impact of the results can be evaluated based on,
 + Conversion Rate
 + Significance test
 ----
@@ -14,15 +14,21 @@ In A/B testing, **A** refers to ‘control’ or the original testing variable. 
 ```shell
 pip install ab-testing-analysis
 ```
-+ Usages & working sample - [Tutorial](https://github.com/mihir-workspace/ab-testing/blob/main/Docs/Tutorial-walkthrough.ipynb)
++ Usages & working sample - [Tutorial](https://github.com/mihir-workspace/ab-testing/blob/main/Docs/Tutorial.ipynb)
 ```python
 from ab_testing import ABTest
+from ab_testing.data import Dataset
+
+df = Dataset().data()
+
 ab_obj = ABTest(df,response_column='converted',group_column='group')
 
 print(ab_obj.conversion_rate())
+>>>>>>
+  Conversion Rate Standard Deviation Standar Error
+A          19.80%              0.398        0.0178
+B          20.20%              0.401         0.018
 ```
-![Conversion-rate](https://raw.githubusercontent.com/mihir-workspace/ab-testing/main/assets/results-conversion-rate.png)
-
 
 
 
