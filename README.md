@@ -1,6 +1,6 @@
 # A/B-testing
 
-![ab-testing-logo](https://raw.githubusercontent.com/mihir-workspace/ab-testing/main/assets/abtest_logo.png)
+![ab-testing-logo](assets/logo.png)
 
 [![License](https://img.shields.io/pypi/v/ab-testing-analysis)](https://pypi.org/project/ab-testing-analysis/)
 [![License](https://img.shields.io/pypi/l/ab-testing-analysis)](https://github.com/mihir-workspace/ab-testing/blob/main/LICENSE)
