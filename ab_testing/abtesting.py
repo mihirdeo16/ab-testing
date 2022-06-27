@@ -1,6 +1,7 @@
 # Import the required lib
 import pandas 
 import numpy as np
+from statsmodels.stats.proportion import proportions_ztest, proportion_confint
 
 
 class ABTest:
@@ -97,3 +98,27 @@ class ABTest:
         )
         
         return conv_rt_report
+
+    def significance_test(self,threshold=0.05) -> str:
+        """_summary_
+
+        Args:
+            threshold (float, optional): _description_. Defaults to 0.05.
+
+        Returns:
+            str: _description_
+        """
+        no_of_a = self.a_sample[self.response_column].count()
+        no_of_b = self.b_sample[self.response_column].count()
+        
+        successes_of_groups = [self.a_sample[self.response_column].sum(), self.b_sample[self.response_column].sum()]
+
+        z_stat, pval = proportions_ztest(successes_of_groups, nobs=[no_of_a, no_of_b])
+
+        (lower_con, lower_treat), (upper_con, upper_treat) = proportion_confint(successes_of_groups, nobs=[no_of_a, no_of_b], alpha=threshold)
+
+        results = ( f"z statistic: {z_stat:.2f}\tp-value: {pval:.3f}"
+                    f"\nConfidentce Interval 95% for {self.a_label} group: {lower_con:.2%} to {upper_con:.2%}"
+                    f"\nConfidentce Interval 95% for {self.b_label} group: {lower_treat:.2%} to {upper_treat:.2%}")
+
+        return results
