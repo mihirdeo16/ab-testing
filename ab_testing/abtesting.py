@@ -127,17 +127,17 @@ class ABTest:
         
         # Check the p-value is lower than threshold or not and draw the conclusion
         if pval > threshold:
-            conclusion = (f"\n\nThe Group {self.a_label} fail to performe significantly different than group {self.b_label}."
-                          f"\nThe P-Value of our test is {pval:.3f} which is above {threshold}, hence Null hypothesis Hₒ cannot be rejected."
+            conclusion = (f"\n\nThe Group {self.a_label} fail to perform significantly different than group {self.b_label}."
+                          f"\nThe P-Value of the test is {pval:.3f} which is above {threshold}, hence Null hypothesis Hₒ cannot be rejected."
                         )
         else:
-            conclusion = (f"\n\nThe Group {self.a_label} able to performe significantly different than group {self.b_label}."
-                          f"\n\The P-Value of our test is {pval} which is below {threshold}, hence Null hypothesis Hₒ can be rejected."
+            conclusion = (f"\n\nThe Group {self.a_label} able to perform significantly different than group {self.b_label}."
+                          f"\n\The P-Value of the test is {pval} which is below {threshold}, hence Null hypothesis Hₒ can be rejected."
                         )
         
         # Pass the Results of the test
         results = ( f"z statistic: {z_stat:.2f}\tp-value: {pval:.3f}"
-                    f"\nConfidentce Interval 95% for {self.a_label} group: {lower_con:.2%} to {upper_con:.2%}"
-                    f"\nConfidentce Interval 95% for {self.b_label} group: {lower_treat:.2%} to {upper_treat:.2%}")+ conclusion
+                    f"\nConfidence Interval 95% for {self.a_label} group: {lower_con:.2%} to {upper_con:.2%}"
+                    f"\nConfidence Interval 95% for {self.b_label} group: {lower_treat:.2%} to {upper_treat:.2%}")+ conclusion
 
         return results
