@@ -112,16 +112,20 @@ class ABTest:
         :type threshold: int
         :return: The z statistic, p-value, and confidence intervals for both groups.
         """
-
+        # Count the Individual Count all 0's + 1's
         no_of_a = self.a_sample[self.response_column].count()
         no_of_b = self.b_sample[self.response_column].count()
         
+        # Count the total Sum of 1's
         successes_of_groups = [self.a_sample[self.response_column].sum(), self.b_sample[self.response_column].sum()]
 
+        # Calcuate the Z's and P value using proportion-ztest
         z_stat, pval = proportions_ztest(successes_of_groups, nobs=[no_of_a, no_of_b])
 
+        # Calculate the Confidence level 
         (lower_con, lower_treat), (upper_con, upper_treat) = proportion_confint(successes_of_groups, nobs=[no_of_a, no_of_b], alpha=threshold)
         
+        # Check the p-value is lower than threshold or not and draw the conclusion
         if pval > threshold:
             conclusion = (f"\n\nThe Group {self.a_label} fail to performe significantly different than group {self.b_label}."
                           f"\nThe P-Value of our test is {pval:.3f} which is above {threshold}, hence Null hypothesis Hₒ cannot be rejected."
@@ -130,7 +134,8 @@ class ABTest:
             conclusion = (f"\n\nThe Group {self.a_label} able to performe significantly different than group {self.b_label}."
                           f"\n\The P-Value of our test is {pval} which is below {threshold}, hence Null hypothesis Hₒ can be rejected."
                         )
-
+        
+        # Pass the Results of the test
         results = ( f"z statistic: {z_stat:.2f}\tp-value: {pval:.3f}"
                     f"\nConfidentce Interval 95% for {self.a_label} group: {lower_con:.2%} to {upper_con:.2%}"
                     f"\nConfidentce Interval 95% for {self.b_label} group: {lower_treat:.2%} to {upper_treat:.2%}")+ conclusion
