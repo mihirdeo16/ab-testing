@@ -38,22 +38,22 @@ print(df.head())
 Output:
 ```shell
   Conversion Rate Standard Deviation Standar Error
-A          20.60%              0.404        0.0181
-B          19.00%              0.392        0.0176 
+A          19.80%              0.398        0.0178
+B          18.80%              0.391        0.0175 
  ----------
-z statistic: 0.63	p-value: 0.526
-Confidentce Interval 95% for A group: 17.06% to 24.14%
-Confidentce Interval 95% for B group: 15.56% to 22.44%
+z statistic: 0.40	p-value: 0.689
+Confidence Interval 95% for A group: 16.31% to 23.29%
+Confidence Interval 95% for B group: 15.38% to 22.22%
 
-The Group A fail to performe significantly different than group B.
-The P-Value of our test is 0.526 which is above 0.05, hence Null hypothesis Hₒ cannot be rejected. 
+The Group A fail to perform significantly different than group B.
+The P-Value of the test is 0.689 which is above 0.05, hence Null hypothesis Hₒ cannot be rejected. 
  ----------
         Users  Response Group
-0  ZVFCUQFMK5         0     A
-1  Y52C42LLKG         1     A
-2  NCC1CC173U         0     A
-3  4TR4XAT6Q7         0     A
-4  XCJTBHI70P         0     A
+0  7PI90FXM9P         0     A
+1  24WYZXYSO2         0     A
+2  A2APLMELIB         0     A
+3  XMU2COFEWQ         0     A
+4  B9L2IKKMBD         0     A
 
 ```
 
