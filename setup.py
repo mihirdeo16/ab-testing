@@ -20,7 +20,7 @@ setup(
     long_description=long_description,
     url='https://github.com/mihir-workspace/ab-testing',
     packages= find_packages(),
-    install_requires=["pandas==1.4.2","statsmodels==0.13.2"],
+    install_requires=["pandas","statsmodels"],
     keywords=['python', 'a/b testing', 'abtest','abtesting', 'response analysis','conversion rate analysis','statistical test'],
     classifiers=[
         "Intended Audience :: Developers",
