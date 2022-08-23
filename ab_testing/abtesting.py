@@ -31,7 +31,7 @@ class ABTest:
 
         # Check the unique values in response column and raise error if not binary
         if df_A[response_column].nunique() !=2:
-                ValueError('Response column should contain binary values')
+                raise ValueError('Response column should contain binary values')
         # Set the response column name 
         self.response_column = response_column
 
@@ -42,7 +42,7 @@ class ABTest:
 
             # Check the unique values in group_column and raise error if not binary
             if df_A[self.group_column].nunique() !=2:
-                ValueError('Group column should contain two distinct values indicating A&B set')
+                raise ValueError('Group column should contain two distinct values indicating A&B set')
 
             # Take group element values & Create two DF by slicing the Master DF
             self.groups_ele = list(df_A[self.group_column].unique())
@@ -66,7 +66,7 @@ class ABTest:
 
         # Check either DF B is given or group_column else raise the error.
         elif df_B ==None and group_column==None:
-            ValueError('Either provide the second dataframe(df_B) or give column name for group indication of A&B') 
+            raise ValueError('Either provide the second dataframe(df_B) or give column name for group indication of A&B') 
 
     def conversion_rate(self) -> pandas.DataFrame:
         """
