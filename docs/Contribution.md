@@ -1,6 +1,6 @@
 # Contributing to AB Testing
 
-Thank you for investing your time in contributing to project! Read our [Code of Conduct](Docs/Code_of_conduct.md) to keep community approachable and respectable.
+Thank you for investing your time in contributing to project! Read our [Code of Conduct](Code_of_conduct.md) to keep community approachable and respectable.
 
 Please feel free to contact on me on [linkedin](https://www.linkedin.com/in/mihir-deo-a779ba185/) or [twitter](https://twitter.com/DeoMihir_7), if have any idea or concept that you want to discuss. 
 
