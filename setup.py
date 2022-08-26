@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = fh.read()
 
-VERSION = '0.2.6'
+VERSION = '0.2.7'
 DESCRIPTION = "A/B testing analysis toolbox for monitoring and reporting experiment results"
 
 # Setting up
@@ -22,14 +22,14 @@ setup(
     project_urls={
     'Homepage' : 'https://github.com/mihir-workspace/ab-testing',
     'Documentation': 'https://github.com/mihir-workspace/ab-testing#readme',
-    'Funding': 'https://donate.pypi.org',
     'Source': 'https://github.com/mihir-workspace/ab-testing',
     'Tracker': 'https://github.com/mihir-workspace/ab-testing/issues',
     },
 
     packages= find_packages(),
     install_requires=["pandas","statsmodels"],
-    keywords=['python', 'a/b testing', 'abtest','abtesting', 'response analysis','conversion rate analysis','statistical test'],
+    keywords=['python','ab test' ,'a/b testing', 'ab test analysis','abtesting','ab testing' 
+                'response analysis','conversion rate analysis','statistical test'],
     
     classifiers=[
         "Intended Audience :: Developers",
@@ -38,12 +38,10 @@ setup(
         "Intended Audience :: Healthcare Industry",
         "Intended Audience :: Information Technology",
 
-        "Development Status :: 5 - Production/Stable",
-
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-        
+
 
         "Topic :: Scientific/Engineering :: Human Machine Interfaces",
         "Topic :: Scientific/Engineering :: Information Analysis",
