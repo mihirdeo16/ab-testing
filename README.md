@@ -7,6 +7,7 @@
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/ab-testing-analysis?color=orange)](https://pypi.org/project/ab-testing-analysis/)
 [![release date](https://img.shields.io/github/release-date/mihirdeo16/ab-testing?color=blueviolet&logo=GitHub)](https://github.com/mihirdeo16/ab-testing/releases)
 [![last commit](https://img.shields.io/github/last-commit/mihirdeo16/ab-testing?logo=git)](https://github.com/mihirdeo16/ab-testing/commits/main)
+
 [![CICD](https://img.shields.io/github/workflow/status/mihirdeo16/ab-testing/Upload%20Python%20Package?color=%232088FF&label=CICD&logo=GitHub%20Actions)](https://github.com/mihirdeo16/ab-testing/actions/workflows/python-publish.yml)
 [![Format](https://img.shields.io/pypi/format/ab-testing-analysis)](https://github.com/mihirdeo16/ab-testing)
 [![License](https://img.shields.io/pypi/l/ab-testing-analysis)](https://github.com/mihirdeo16/ab-testing/blob/main/LICENSE)
