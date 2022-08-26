@@ -2,11 +2,16 @@
 
 ![ab-testing-logo](https://raw.githubusercontent.com/mihir-workspace/ab-testing/main/assets/logo.png)
 
-[![Pypi](https://img.shields.io/pypi/v/ab-testing-analysis?color=blue)](https://pypi.org/project/ab-testing-analysis/)
-[![Format](https://img.shields.io/pypi/format/ab-testing-analysis)](https://github.com/mihir-workspace/ab-testing)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/ab-testing-analysis)](https://pypi.org/project/ab-testing-analysis/)
-[![License](https://img.shields.io/pypi/l/ab-testing-analysis)](https://github.com/mihir-workspace/ab-testing/blob/main/LICENSE)
-[![SocialMedia](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDeoMihir_7)](https://twitter.com/DeoMihir_7)
+[![Pypi](https://img.shields.io/pypi/v/ab-testing-analysis?color=blue&logo=PyPI)](https://pypi.org/project/ab-testing-analysis/)
+[![Read the Docs](https://img.shields.io/readthedocs/ab-testing-analysis?logo=Read%20the%20Docs&logoColor=blue)](#TODO-LinkToAdd)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/ab-testing-analysis?color=orange)](https://pypi.org/project/ab-testing-analysis/)
+[![release date](https://img.shields.io/github/release-date/mihirdeo16/ab-testing?color=blueviolet&logo=GitHub)](https://github.com/mihirdeo16/ab-testing/releases)
+[![last commit](https://img.shields.io/github/last-commit/mihirdeo16/ab-testing?logo=git)](https://github.com/mihirdeo16/ab-testing/commits/main)
+[![CICD](https://img.shields.io/github/workflow/status/mihirdeo16/ab-testing/Upload%20Python%20Package?color=%232088FF&label=CICD&logo=GitHub%20Actions)](https://github.com/mihirdeo16/ab-testing/actions/workflows/python-publish.yml)
+[![Format](https://img.shields.io/pypi/format/ab-testing-analysis)](https://github.com/mihirdeo16/ab-testing)
+[![License](https://img.shields.io/pypi/l/ab-testing-analysis)](https://github.com/mihirdeo16/ab-testing/blob/main/LICENSE)
+[![size of files](https://img.shields.io/github/repo-size/mihirdeo16/ab-testing)](https://github.com/mihirdeo16/ab-testing)
+[![Social Media](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDeoMihir_7)](https://twitter.com/DeoMihir_7)
 
 ---
 
