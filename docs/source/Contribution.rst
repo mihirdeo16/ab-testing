@@ -1,5 +1,5 @@
 ============================
-Contributing to AB Testing
+Contributing to A/B Testing
 ============================
 
 Thank you for investing your time in contributing to project! Please read our :doc:`Code_of_conduct` to keep community approachable and respectable.
@@ -34,6 +34,6 @@ Pull Request
 ````````````````````
 When you're finished with the changes, create a pull request. And just mention in brief the your changes and tag the maintainer. Once review is done we can merge the branch and delete it.
 
-Once the changes being reflected on the pypi, your contribution will be mentioned in the [README](README.md).
+Once the changes being reflected on the pypi, your contribution will be mentioned in the README.
 Thanks for your contribution to this project 💥 and congratulation ✨🎉.
 
