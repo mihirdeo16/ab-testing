@@ -22,7 +22,7 @@ In A/B testing, **A** refers to the original testing variable. Whereas **B** ref
 ```shell
 pip install ab-testing-analysis
 ```
-+ Usages & working sample - [Tutorial](https://github.com/mihir-workspace/ab-testing/blob/main/Docs/Tutorial.ipynb)
++ Usages & working sample - [Tutorial](https://github.com/mihir-workspace/ab-testing/blob/main/docs/Tutorial.ipynb)
 ```python
 from ab_testing import ABTest
 from ab_testing.data import Dataset
@@ -37,32 +37,32 @@ print(df.head())
 ```
 Output:
 ```shell
-  Conversion Rate Standard Deviation Standar Error
-A          19.80%              0.398        0.0178
-B          18.80%              0.391        0.0175 
+  Conversion Rate Standard Deviation Standard Error
+A          20.20%              0.401          0.018
+B          22.20%              0.416         0.0186 
  ----------
-z statistic: 0.40	p-value: 0.689
-Confidence Interval 95% for A group: 16.31% to 23.29%
-Confidence Interval 95% for B group: 15.38% to 22.22%
+z statistic: -0.77      p-value: 0.439
+Confidence Interval 95% for A group: 16.68% to 23.72%
+Confidence Interval 95% for B group: 18.56% to 25.84%
 
 The Group A fail to perform significantly different than group B.
-The P-Value of the test is 0.689 which is above 0.05, hence Null hypothesis Hₒ cannot be rejected. 
+The P-Value of the test is 0.439 which is above 0.05, hence Null hypothesis Hₒ cannot be rejected. 
  ----------
         Users  Response Group
-0  7PI90FXM9P         0     A
-1  24WYZXYSO2         0     A
-2  A2APLMELIB         0     A
-3  XMU2COFEWQ         0     A
-4  B9L2IKKMBD         0     A
+0  IS36FC7AQJ         0     A
+1  LZW2YNYHZG         1     A
+2  9588IGN0RN         1     A
+3  HSAH1TYQFF         1     A
+4  5D9G147941         0     A
 
 ```
 ## Contribution
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-A detailed overview on how to contribute can be found in the [contributing guide](Docs/Contribution.md).
+A detailed overview on how to contribute can be found in the [contributing guide](docs/Contribution.md).
 
 ## Code of Conduct
-As contributors and maintainers to this project, you are expected to abide by code of conduct. More information can be found at [Code of conduct](Docs/Code_of_conduct.md)
+As contributors and maintainers to this project, you are expected to abide by code of conduct. More information can be found at [Code of conduct](docs/Code_of_conduct.md)
 
 ## License
 [MIT ](LICENSE)
