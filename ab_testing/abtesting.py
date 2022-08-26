@@ -49,18 +49,18 @@ class ABTest:
             self.a_sample = df_A[df_A[self.group_column]==self.groups_ele[0]]
             self.b_sample  = df_A[df_A[self.group_column]==self.groups_ele[1]] 
 
-            # Assgine the group element as Labels
+            # Assigned the group element as Labels
             self.a_label = self.groups_ele[0]
             self.b_label = self.groups_ele[1]
 
         # Check if DF B is give or not
         elif df_B !=None:
 
-            # Assigne the DF to right varibles
+            # Assigned the DF to right variables
             self.b_sample = df_B
             self.a_sample = df_A
             
-            # Assgine the labels either defaul or given by the user.
+            # Assigned the labels either default or given by the user.
             self.a_label = labels[0]
             self.b_label = labels[1]
 
@@ -70,7 +70,7 @@ class ABTest:
 
     def conversion_rate(self) -> pandas.DataFrame:
         """
-        The function calculate theconversion rate, standard deviation,
+        The function calculate the conversion rate, standard deviation,
         and standard error for each group and return DataFrame.
 
         :return: A dataframe with the conversion rate, standard deviation and standard error for each
@@ -78,7 +78,7 @@ class ABTest:
 
         """
 
-        # Calculate the Converation Rate of Sample and return in percentage for both A & B set
+        # Calculate the Conversion Rate of Sample and return in percentage for both A & B set
         conv_rt_a = f"{np.mean(self.a_sample[self.response_column]):.2%}"
         conv_rt_b = f"{np.mean(self.b_sample[self.response_column]):.2%}"  
 
@@ -90,16 +90,16 @@ class ABTest:
         std_err_a = f"{np.std(self.a_sample[self.response_column], ddof=1)/ np.sqrt(np.size(self.a_sample[self.response_column])):.3}"
         std_err_b = f"{np.std(self.b_sample[self.response_column], ddof=1)/ np.sqrt(np.size(self.b_sample[self.response_column])):.3}"
         
-        # Create the final report on performace of the set
+        # Create the final report on performance of the set
         conv_rt_report = pandas.DataFrame(data={"Conversion Rate":[conv_rt_a,conv_rt_b],
                                 "Standard Deviation":[std_a,std_b],
-                                "Standar Error":[std_err_a,std_err_b]},
+                                "Standard Error":[std_err_a,std_err_b]},
                                 index=[self.a_label,self.b_label]
         )
         
         return conv_rt_report
 
-    def significance_test(self,threshold:int=0.05) -> str:
+    def significance_test(self,threshold:float=0.05) -> str:
         """
         It takes the two samples, calculates the number of successes in each sample, and then uses the
         `proportions_ztest` function from the `statsmodels` library to calculate the z-statistic and
@@ -119,7 +119,7 @@ class ABTest:
         # Count the total Sum of 1's
         successes_of_groups = [self.a_sample[self.response_column].sum(), self.b_sample[self.response_column].sum()]
 
-        # Calcuate the Z's and P value using proportion-ztest
+        # Calculate the Z's and P value using proportion-ztest
         z_stat, pval = proportions_ztest(successes_of_groups, nobs=[no_of_a, no_of_b])
 
         # Calculate the Confidence level 
@@ -132,7 +132,7 @@ class ABTest:
                         )
         else:
             conclusion = (f"\n\nThe Group {self.a_label} able to perform significantly different than group {self.b_label}."
-                          f"\n\The P-Value of the test is {pval} which is below {threshold}, hence Null hypothesis Hₒ can be rejected."
+                          f"\nThe P-Value of the test is {pval} which is below {threshold}, hence Null hypothesis Hₒ can be rejected."
                         )
         
         # Pass the Results of the test
