@@ -65,10 +65,10 @@ The P-Value of the test is 0.439 which is above 0.05, hence Null hypothesis Hₒ
 ## Contribution
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-A detailed overview on how to contribute can be found in the [contributing guide](docs/Contribution.md).
+A detailed overview on how to contribute can be found in the [contributing guide](docs/md_files/Contribution.md).
 
 ## Code of Conduct
-As contributors and maintainers to this project, you are expected to abide by code of conduct. More information can be found at [Code of conduct](docs/Code_of_conduct.md)
+As contributors and maintainers to this project, you are expected to abide by code of conduct. More information can be found at [Code of conduct](docs/md_files/Code_of_conduct.md)
 
 ## License
 [MIT ](LICENSE)
