@@ -26,3 +26,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'piccolo_theme'
 html_static_path = ['_static']
+
+# If specified, this will be used in the nav bar instead.
+html_short_title = "AB Testing Analysis Docs"
+
+html_theme_options = {
+    "source_url": 'https://github.com/mihirdeo16/ab-testing',
+    "source_icon": "github"
+}
