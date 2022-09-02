@@ -3,7 +3,7 @@
 ![ab-testing-logo](https://raw.githubusercontent.com/mihir-workspace/ab-testing/main/assets/logo.png)
 
 [![Pypi](https://img.shields.io/pypi/v/ab-testing-analysis?color=blue&logo=PyPI)](https://pypi.org/project/ab-testing-analysis/)
-[![Read the Docs](https://img.shields.io/readthedocs/ab-testing-analysis?logo=Read%20the%20Docs&logoColor=blue)](#TODO-LinkToAdd)
+[![Read the Docs](https://img.shields.io/readthedocs/ab-testing-analysis?logo=Read%20the%20Docs&logoColor=blue)](https://ab-testing-analysis.readthedocs.io/en/latest/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/ab-testing-analysis?color=orange)](https://pypi.org/project/ab-testing-analysis/)
 [![release date](https://img.shields.io/github/release-date/mihirdeo16/ab-testing?color=blueviolet&logo=GitHub)](https://github.com/mihirdeo16/ab-testing/releases)
 [![last commit](https://img.shields.io/github/last-commit/mihirdeo16/ab-testing?logo=git)](https://github.com/mihirdeo16/ab-testing/commits/main)
