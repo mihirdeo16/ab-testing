@@ -27,6 +27,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'piccolo_theme'
 html_static_path = ['_static']
 
+html_favicon = 'favicon.ico'
+
 # If specified, this will be used in the nav bar instead.
 html_short_title = "AB Testing Analysis Docs"
 
