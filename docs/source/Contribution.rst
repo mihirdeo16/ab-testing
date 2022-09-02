@@ -1,15 +1,16 @@
-============================
+=============================
 Contributing to A/B Testing
-============================
+=============================
 
 Thank you for investing your time in contributing to project! Please read our :doc:`Code_of_conduct` to keep community approachable and respectable.
 
-Please feel free to contact on me on `linkedin <https://www.linkedin.com/in/mihir-deo-a779ba185/>`_ or `twitter <https://twitter.com/DeoMihir_7>`_, if have any idea or concept that you want to discuss. 
+Please feel free to contact on me on `mihirdeo16@gmail.com <mihirdeo16@gmail.com>`_ or `twitter <https://twitter.com/DeoMihir_7>`_, if have any idea or concept that you want to discuss. 
 
 **The goal of the library is to create the benchmarking tool which will allowed the data analytics and developers to quick analyze the results of test.** 
 
-Issues
------------
+++++++++++++++++++++++++++
+How to a create the Issue
+++++++++++++++++++++++++++
 
 If you spot a problem with the code flow or document, search if an issue already exists. If a related issue doesn't exist, you can open a new issue.
 
@@ -21,7 +22,6 @@ Please, follow these steps while opening new issue,
 
 
 🏗️ Adding new feature - statistical test or method
-````````````````````````````````````````````````````` 
 A/B testing is topic related statistics and data science and widely used. Yet not much documentation and information is available is sparse on the web. So, it would be really appreciated if you find and any new statistics test or method for A/B testing that you want to contribute to the project. 
 
  To make it more informative and articulated new feature please mentioned following things to the issue.
