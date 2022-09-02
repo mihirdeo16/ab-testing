@@ -12,8 +12,6 @@
 [![Format](https://img.shields.io/pypi/format/ab-testing-analysis)](https://github.com/mihirdeo16/ab-testing)
 [![License](https://img.shields.io/pypi/l/ab-testing-analysis)](https://github.com/mihirdeo16/ab-testing/blob/main/LICENSE)
 [![size of files](https://img.shields.io/github/repo-size/mihirdeo16/ab-testing)](https://github.com/mihirdeo16/ab-testing)
-[![Social Media](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FDeoMihir_7)](https://twitter.com/DeoMihir_7)
-
 ---
 
 A/B testing is process which allows developer/data scientist to analyze and evaluate, the performance of products in an experiment. In this process two or more versions of a variable (web page, page element, products etc.) are shown to different segments of website visitors at the same time to determine which version leaves the maximum impact and drives business metrics.
@@ -28,7 +26,7 @@ In A/B testing, **A** refers to the original testing variable. Whereas **B** ref
 ```shell
 pip install ab-testing-analysis
 ```
-+ Usages & working sample - [Tutorial](https://github.com/mihir-workspace/ab-testing/blob/main/docs/Tutorial.ipynb)
++ Usages & working sample - [Tutorial](https://colab.research.google.com/github/mihirdeo16/ab-testing/blob/main/docs/Tutorial.ipynb)
 ```python
 from ab_testing import ABTest
 from ab_testing.data import Dataset
@@ -65,13 +63,13 @@ The P-Value of the test is 0.439 which is above 0.05, hence Null hypothesis Hₒ
 ## Contribution
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-A detailed overview on how to contribute can be found in the [contributing guide](docs/md_files/Contribution.md).
+A detailed overview on how to contribute can be found in the [contributing guide](https://ab-testing-analysis.readthedocs.io/en/latest/Contribution.html).
 
 ## Code of Conduct
-As contributors and maintainers to this project, you are expected to abide by code of conduct. More information can be found at [Code of conduct](docs/md_files/Code_of_conduct.md)
+As contributors and maintainers to this project, you are expected to abide by code of conduct. More information can be found at [Code of conduct](https://ab-testing-analysis.readthedocs.io/en/latest/Code_of_conduct.html)
 
 ## License
-[MIT ](LICENSE)
+[MIT ](https://ab-testing-analysis.readthedocs.io/en/latest/Licence.html)
 
 
 
