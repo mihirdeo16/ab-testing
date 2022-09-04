@@ -25,7 +25,7 @@ Please, follow these steps while opening new issue,
 A/B testing is topic related statistics and data science and widely used. Yet not much documentation and information is available and very sparse on the web. 
 So, it would be really appreciated if you find and any new statistics test or method for A/B testing that you want to contribute to this project. 
 
- To make it more informative and articulated new feature please mentioned following things to the issue.
+To make it more informative and articulated, please mentioned following things to the issue.
   + 🗒️ Brief idea about the feature that you want to add.
   + 🔬 paper citation or blog where you read about this, given that author has approved this and or under open license.
 
