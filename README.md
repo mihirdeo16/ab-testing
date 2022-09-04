@@ -19,16 +19,21 @@ A/B testing is process which allows developer/data scientist to analyze and eval
 In A/B testing, **A** refers to the original testing variable. Whereas **B** refers to a new version of the original testing variable. Impact of the results can be evaluated based on,
 + Conversion Rate
 + Significance test
+
 ----
 #### Documentation can be found on- [ab-testing-analysis.readthedocs.io](https://ab-testing-analysis.readthedocs.io/en/latest/)
 ----
 
 ## Installation & Usage
+
 + Installing the library from [pypi](https://pypi.org/project/ab-testing-analysis/) - It has only dependency on *pandas & numpy*
 ```shell
 pip install ab-testing-analysis
 ```
 + Usages & working sample - [Tutorial](https://colab.research.google.com/github/mihirdeo16/ab-testing/blob/main/docs/Tutorial.ipynb)
+
++ Example code, 
+
 ```python
 from ab_testing import ABTest
 from ab_testing.data import Dataset
