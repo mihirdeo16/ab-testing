@@ -6,8 +6,8 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = fh.read()
 
-VERSION = '0.2.7'
-DESCRIPTION = "A/B testing analysis toolbox for monitoring and reporting experiment results"
+VERSION = '1.2.7'
+DESCRIPTION = "AB test analysis toolbox for analyzing and reporting the results of an ab test experiment. It provides the functions to analyze the ab test result of an experiment."
 
 # Setting up
 setup(
@@ -20,15 +20,15 @@ setup(
     long_description=long_description,
 
     project_urls={
-    'Homepage' : 'https://github.com/mihir-workspace/ab-testing',
-    'Documentation': 'https://github.com/mihir-workspace/ab-testing#readme',
-    'Source': 'https://github.com/mihir-workspace/ab-testing',
-    'Tracker': 'https://github.com/mihir-workspace/ab-testing/issues',
+    'Homepage' : 'https://ab-testing-analysis.readthedocs.io/en/latest/index.html',
+    'Documentation': 'https://ab-testing-analysis.readthedocs.io/en/latest/Getting_Started.html',
+    'Source': 'https://github.com/mihirdeo16/ab-testing',
+    'Tracker': 'https://github.com/mihirdeo16/ab-testing/issues',
     },
 
     packages= find_packages(),
     install_requires=["pandas","statsmodels"],
-    keywords=['python','ab test' ,'a/b testing', 'ab test analysis','abtesting','ab testing' 
+    keywords=['python','ab test' ,'ab testing', 'ab testing analysis','abtesting analysis','abtesting', 
                 'response analysis','conversion rate analysis','statistical test'],
     
     classifiers=[
@@ -40,8 +40,12 @@ setup(
 
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
 
+        "Operating System :: OS Independent",
+        "Development Status :: 5 - Production/Stable",
 
         "Topic :: Scientific/Engineering :: Human Machine Interfaces",
         "Topic :: Scientific/Engineering :: Information Analysis",
