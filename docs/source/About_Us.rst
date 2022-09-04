@@ -2,13 +2,13 @@
 About Us
 ==============
 
-Goal 
-`````
+Goal of the project
+`````````````````````
 To create a library which will be the benchmarking tool for A/B testing analysis. 
 
 
-📬 Reach me out!
-``````````````````
+🙋 About me & 📬 reach me out!
+``````````````````````````````````
 👋 I am Mihir, a data scientist and tech enthusiast. I love to built open source applications 🧑‍💻, talk about
 in AI&ML 📢 and hiking 🧗. If you looking for collaborator on A project feel free to reach to me or discuss an idea.
 Please feel free to reach out to me if you want to discuss or have chat, on these platform, 👇 !!
