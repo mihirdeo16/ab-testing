@@ -20,6 +20,8 @@ In A/B testing, **A** refers to the original testing variable. Whereas **B** ref
 + Conversion Rate
 + Significance test
 ----
+#### Documentation can be found on- [ab-testing-analysis.readthedocs.io](https://ab-testing-analysis.readthedocs.io/en/latest/)
+----
 
 ## Installation & Usage
 + Installing the library from [pypi](https://pypi.org/project/ab-testing-analysis/) - It has only dependency on *pandas & numpy*
