@@ -18,8 +18,9 @@ Introduction
 
 A/B testing is process which allows developer/data scientist to analyze and evaluate, the performance of products in through analyze experiment. 
 In this process two or more versions of a variable (web page, page element, products etc.) are shown to different segments of website 
-visitors to determine which version leaves the maximum impact and drives business metrics. The goal of this library is to create a tool 
-which will help in evaluating these experiment's results made any significant impact or not.
+visitors to determine which version leaves the maximum impact and drives business metrics. Based on the feedback one can understand the conversion rate
+and significance of change. The goal of this library is to create a tool 
+which will help in evaluating these experiment's results.
 
 Table of Content
 -----------------
