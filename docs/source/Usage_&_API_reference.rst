@@ -65,7 +65,9 @@ It return the these values in table format in pandas dataframe type.
 
    .. code:: python
 
-      abtest_obj.conversion_rate()    
+      abtest_obj.conversion_rate()
+
+   **Output:**  
 
    .. code:: shell
 
@@ -92,7 +94,7 @@ This provides the significance test report in along with conclusive statement. I
 
       abtest_obj.significance_test() 
 
-   Output:
+   **Output:**
 
    .. code:: shell
 
