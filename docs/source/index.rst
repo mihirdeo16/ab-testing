@@ -8,7 +8,7 @@ A/B Testing Analysis toolkit
 =============================
 
 .. image:: https://raw.githubusercontent.com/mihirdeo16/ab-testing/main/assets/logo.png
-   :alt: Log of the library
+   :alt: Logo of the library
 
 |Pypi| |Read the Docs| |PyPI - Downloads| |CICD| |Format| |License| |size of files|
 
