@@ -16,11 +16,11 @@ A/B Testing Analysis toolkit
 Introduction
 ----------------
 
-A/B testing is process which allows developer/data scientist to analyze and evaluate, the performance of products in through analyze experiment. 
-In this process two or more versions of a variable (web page, page element, products etc.) are shown to different segments of website 
-visitors to determine which version leaves the maximum impact and drives business metrics. Based on the feedback one can understand the conversion rate
-and significance of change. The goal of this library is to create a tool 
-which will help in evaluating these experiment's results.
+A/B testing is process that enables developers and data scientists examine and assess product performance through an experiment.
+In this process two or more versions of a variable (web page, page element, products etc.) are shown to different segments of 
+visitors to determine which version leaves the maximum impact and drives business value. Based on this feedback one can evaluate the conversion rate
+and significance of change based on input. The goal of this library is to create a tool 
+which will help in understanding the impact of these experiment.
 
 Table of Content
 -----------------
