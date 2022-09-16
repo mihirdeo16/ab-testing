@@ -2,7 +2,7 @@
 Getting Started
 ==================
 
-The library is build on top of the pandas and statsmodels libraries. 
+The library is build on top of the `pandas <https://pandas.pydata.org/>`_ and `statsmodels <https://www.statsmodels.org/stable/index.html>`_ libraries. 
 
 Tutorial
 ---------

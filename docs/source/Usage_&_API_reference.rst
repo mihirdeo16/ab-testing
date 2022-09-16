@@ -5,10 +5,10 @@ Usage & API reference
 Usage
 -------
 
-To use the different functionalities/modules of library, create a object of the class `ABTest` with passing 
+To use the different functionalities/modules of library, create an object of class `ABTest` with passing 
 class parameters,
 
-+ :code:`df` = A dataframe which has Users, Response column and Group column
++ :code:`df` = A dataframe which has **Users**, **Response column** and **Group column**.
 + :code:`response_column` = A binary valued column's name which has 1 or 0 correspond for the users which being converted or not respectively.
 + :code:`group_column` = A binary valued column's name which will indicate the user belong to which group **A** or **B** group.
 + :code:`labels` = (Optional) An array with two string values which will label of the :code:`group_column`.
@@ -59,7 +59,7 @@ APIs/Functions
 Conversion rate :code:`conversion_rate`
 `````````````````````````````````````````
 It provides the conversion rate along with standard deviation and standard error values for each group. 
-It return the these values in table format in pandas dataframe type.
+It returns the these values in table format in pandas dataframe object.
 
 .. note::
 
@@ -78,7 +78,7 @@ It return the these values in table format in pandas dataframe type.
 
 Significance test :code:`significance_test`
 `````````````````````````````````````````````
-This provides the significance test report in along with conclusive statement. It provides following information,
+This provides the significance test report along with conclusive statement. It provides following information as String,
 
 +  Confidence Interval of 95% for each group.
 +  P-Value for between group **A** and **B**.
