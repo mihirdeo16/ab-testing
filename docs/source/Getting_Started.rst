@@ -10,7 +10,7 @@ Tutorial
 .. important:: 
 
 
-    🔥 **To quickstart with library's functionality, run online on**: `Colab notebook <https://colab.research.google.com/github/mihirdeo16/ab-testing/blob/main/docs/Tutorial.ipynb>`_
+    🔥 **To quick-start with library's functionality, run online on**: `Colab notebook <https://colab.research.google.com/github/mihirdeo16/ab-testing/blob/main/docs/Tutorial.ipynb>`_
 
 
 

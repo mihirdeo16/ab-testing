@@ -4,7 +4,7 @@ About Us
 
 Mission
 ``````````````
-To build a library that will serve as a benchmarking tool for the analysis of A/B test experiments.
+To build a library that will serve as a bench-marking tool for the analysis of A/B test experiments.
 
 🙋 About me & 📬 reach me out!
 ``````````````````````````````````
@@ -13,7 +13,7 @@ and going on hikes 🧗. Please get in touch with me if you need a partner for a
 If you have any questions or would like to speak, you can connect with me through these platforms, 
 don't hesitate to get in touch with me! 👇
 
-|linkedin|  |github|  |gmail|  |twitter|
+|Linkedin|  |GitHub|  |Gmail|  |Twitter|
 
 
 .. |linkedin| image:: https://img.shields.io/badge/-Linkedin-0A66C2?style=for-the-badge&labelColor=0e76a8&logo=linkedin&logoColor=white
