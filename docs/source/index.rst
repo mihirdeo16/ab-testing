@@ -10,7 +10,7 @@ A/B Testing Analysis toolkit
 .. image:: https://raw.githubusercontent.com/mihirdeo16/ab-testing/main/assets/logo.png
    :alt: Logo of the library
 
-|Pypi| |Read the Docs| |PyPI - Downloads| |CICD| |Format| |License| |size of files|
+|Pypi| |Read the Docs| |PyPI - Downloads| |code style| |CICD| |Format| |License| |size of files|
 
 ----------------
 Introduction
@@ -51,3 +51,5 @@ Table of Content
    :target: https://github.com/mihirdeo16/ab-testing/blob/main/LICENSE
 .. |size of files| image:: https://img.shields.io/github/repo-size/mihirdeo16/ab-testing
    :target: https://github.com/mihirdeo16/ab-testing
+.. |code style| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
