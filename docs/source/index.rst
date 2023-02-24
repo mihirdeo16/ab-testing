@@ -43,7 +43,7 @@ Table of Content
    :target: https://ab-testing-analysis.readthedocs.io/en/latest/
 .. |PyPI - Downloads| image:: https://img.shields.io/pypi/dm/ab-testing-analysis?color=orange
    :target: https://pypi.org/project/ab-testing-analysis/
-.. |CICD| image:: https://img.shields.io/github/workflow/status/mihirdeo16/ab-testing/Upload%20Python%20Package?color=%232088FF&label=CICD&logo=GitHub%20Actions
+.. |CICD| image:: https://img.shields.io/github/actions/workflow/status/mihirdeo16/ab-testing/.github/workflows/python-publish.yml?color=%232088FF&label=CICD&logo=GitHub%20Actions
    :target: https://github.com/mihirdeo16/ab-testing/actions/workflows/python-publish.yml
 .. |Format| image:: https://img.shields.io/pypi/format/ab-testing-analysis
    :target: https://github.com/mihirdeo16/ab-testing
