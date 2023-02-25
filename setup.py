@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = fh.read()
 
-VERSION = '1.2.7'
+VERSION = '1.2.8'
 DESCRIPTION = "AB test analysis toolbox for analyzing and reporting the results of an ab test experiment. It provides the functions to analyze the ab test result of an experiment."
 
 # Setting up
